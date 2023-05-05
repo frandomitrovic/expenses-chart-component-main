@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="text-lg bg-neutral3 grid place-items-center min-h-screen p-4 text-neutral1">
+  <main class="max-w-sm grid gap-4">
+    <div class="bg-accent1 p-4 rounded-lg flex justify-between space-x-8 items-center">
+      <div class="grid gap-4">
+        <h2 class="text-neutral4">My balance</h2>
+        <p class="text-neutral4 text-2xl font-bold">$921.48</p>
+      </div>
+        <img src="images/logo.svg" alt="Logo icon">
+    </div>
+    <div class="bg-neutral4 p-4 rounded-lg grid gap-6">
+      <h1 class="text-2xl font-bold">Spending - Last 7 days</h1>
+      <div class="flex justify-between gap-3 mt-10 items-end" id="chart">
+      </div>
+      <div class="h-[1px] w-full bg-neutral3"></div>
+      <div class="flex justify-between space-x-8 items-end">
+        <div class="grid gap-2">
+          <h2 class="text-neutral2">Total this month</h2>
+          <p class="text-2xl font-bold">$478.33</p>
+        </div>
+        <div class="grid text-right">
+          <h2 class="text-lg font-bold">+2.4%</h2>
+          <p class="text-neutral2">from last month</p>
+        </div>
+      </div>
+    </div>  
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
